@@ -25,7 +25,7 @@ const Skills = () => {
     },
   ];
 
-  const techincalExperties = [
+  const technicalExperience = [
     { id: 1, name: "React.js, JavaScript (ES6+), JSX" },
     { id: 2, name: "State Management: Redux, Context API" },
     { id: 3, name: "Component Libraries: Material-UI, Ant Design" },
@@ -86,6 +86,7 @@ const Skills = () => {
         </h1>
         <div className="max-w-[700px] mx-auto">
           {/* React Dev Section Starts Here */}
+
           <div className="flex items-center gap-2 pb-4">
             <FaReact className="text-xl text-teal-600" />
             <span className="text-bold text-xl  font-titleFont ">
@@ -113,7 +114,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="md:px-4 py-1">
-            {techincalExperties.map((item, index) => (
+            {technicalExperience.map((item, index) => (
               <div key={index}>
                 <div className="flex items-start md:items-start gap-2">
                   <GiCompactDisc className=" text-xl md:text-sm md:text-bold  text-slate-600 mt-1 md:mt-1 md:text-md" />
@@ -176,7 +177,7 @@ const Skills = () => {
             </span>
           </div>
           <div className="md:px-4 py-1">
-            {problemSolving.map((item, index) => (
+            {continuousLearning.map((item, index) => (
               <div key={index}>
                 <div className="flex items-start md:items-start gap-2">
                   <GiCompactDisc className=" text-xl md:text-sm md:text-bold  text-slate-600 mt-1 md:mt-1 md:text-md" />
