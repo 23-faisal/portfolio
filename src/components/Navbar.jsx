@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import { AiFillMessage } from "react-icons/ai";
 
 const Navbar = () => {
   const location = useLocation();
   const isActive = (pathname) => location.pathname === pathname;
 
   return (
-    <section className="max-w-7xl mx-auto  border-b py-3 md:py-5 px-2 sticky z-50 ">
+    <section className="max-w-7xl mx-auto   border-b border-slate-200 py-3 md:py-5 px-2 sticky z-50 shadow-lg ">
       <nav className="font-titleFont w-full  flex  items-center  justify-between">
         <div className="">
           <Link to="/">

@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Portfolio from "./pages/Portfolio";
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<ContactMe />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
