@@ -11,13 +11,13 @@ const Footer = () => {
         </h1>
         <div className="flex items-center justify-center gap-4">
           <ExternalLink href="https://github.com/faisal-23-ahmed">
-            <FaGithub className="text-2xl text-gray-300  hover:text-white transition duration-200 ease-in-out" />
+            <FaGithub className="text-2xl text-gray-500  hover:text-white transition duration-200 ease-in-out" />
           </ExternalLink>
           <ExternalLink href="https://twitter.com/faisalahmed_23">
-            <FaXTwitter className="text-2xl text-gray-300  hover:text-white transition duration-200 ease-in-out" />
+            <FaXTwitter className="text-2xl text-gray-500  hover:text-white transition duration-200 ease-in-out" />
           </ExternalLink>
           <ExternalLink href="https://www.linkedin.com/in/faisalahmed23/">
-            <FaLinkedin className="text-2xl text-white md:text-gray-300  hover:text-white transition duration-200 ease-in-out" />
+            <FaLinkedin className="text-2xl text-gray-500 md:text-gray-500 hover:text-white transition duration-200 ease-in-out" />
           </ExternalLink>
         </div>
       </div>
