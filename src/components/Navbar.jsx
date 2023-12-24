@@ -6,7 +6,7 @@ const Navbar = () => {
   const isActive = (pathname) => location.pathname === pathname;
 
   return (
-    <section className="max-w-7xl mx-auto   border-b border-slate-200 py-3 md:py-5 px-2 sticky top-2  z-50 shadow-lg ">
+    <section className="   max-w-7xl mx-auto bg-[#111827]   border-b border-slate-200 py-3 md:py-5 px-2 sticky top-0  z-50 shadow-lg ">
       <nav className="font-titleFont w-full  flex  items-center  justify-between">
         <div>
           <Link className="flex items-center gap-2" to="/">
