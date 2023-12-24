@@ -1,8 +1,11 @@
+import Contact from "../components/Contact";
+
+
 const ContactMe = () => {
   return (
-    <div>
-      <h1>This is a Contact me Page</h1>
-    </div>
+    <section className="md:mb-20 px-4 md:px-0">
+      <Contact />
+    </section>
   );
 };
 

@@ -7,6 +7,8 @@ import Blog from "./pages/Blog";
 import Portfolio from "./pages/Portfolio";
 import ContactMe from "./pages/ContactMe";
 import NoPage from "./pages/NoPage";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -22,6 +24,18 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </>
   );
 }

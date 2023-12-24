@@ -1,4 +1,6 @@
 import AboutCard from "../components/AboutCard";
+import Contact from "../components/Contact";
+import MyPortfolio from "../components/MyPortfolio";
 import Skills from "../components/Skills";
 
 const Home = () => {
@@ -6,6 +8,8 @@ const Home = () => {
     <section className="px-2 max-w-7xl mx-auto  py-8 md:py-12">
       <AboutCard />
       <Skills />
+      <MyPortfolio />
+      <Contact />
     </section>
   );
 };

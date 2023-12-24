@@ -81,7 +81,7 @@ const Skills = () => {
   return (
     <section className="mt-8">
       <div className="shadow-lg rounded-lg pb-8">
-        <h1 className="text-semibold text-4xl text-center mt-12 mb-6">
+        <h1 className="text-semibold text-4xl font-bold font-titleFont  text-center mt-12 mb-6  pb-4">
           Skills
         </h1>
         <div className="max-w-[700px] mx-auto">
@@ -93,7 +93,7 @@ const Skills = () => {
               React Development:
             </span>
           </div>
-          <div className="md:px-4 py-1">
+          <div className="md:px-4 py-2">
             {reactDev.map((item, index) => (
               <div key={index}>
                 <div className="flex items-start md:items-start gap-2">
