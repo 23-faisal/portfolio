@@ -20,7 +20,7 @@ const AboutCard = () => {
         <div className="hidden md:block md:w-2/5">
           <img
             className="h-[600px] rounded-lg "
-            src="/coding.jpg"
+            src="/coding2.png"
             alt="coding image"
           />
         </div>
